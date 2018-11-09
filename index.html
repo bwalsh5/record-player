@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Record Player: SVG</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/topcoat/0.8.0/css/topcoat-desktop-dark.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <section>
+  <label class="topcoat-switch">
+  <input type="checkbox" class="topcoat-switch__input" id="playRadio">
+  <div class="topcoat-switch__toggle"></div>
+</label>
+</section>
+<svg viewBox="0 0 500 500">
+  <g id="spinrecord">
+  <circle r="155" cx="250" cy="120" stroke="grey" stroke-width="1"/> 
+
+    <circle r="130" cx="250" cy="120" stroke="grey" stroke-width="1"/> 
+    <circle r="100" cx="250" cy="120" stroke="grey" stroke-width="1" /> 
+     <circle r="80" cx="250" cy="120" stroke="grey" stroke-width="1" />
+         <circle r="60" cx="250" cy="120" stroke="grey" stroke-width="1" />
+         
+         <circle r="40" cx="250" cy="120" fill="orange" stroke-width="1" />
+    <circle r="3" cx="250" cy="120" stroke="grey" stroke-width="1" />
+    <text x="225" y="110">PRINCE</text>
+          </g>
+</svg>
+
+<!-- <img id="spinrecord" src="http://www.xtrme.com/wp-content/uploads/2011/11/record.png"> -->
+
+<audio id="record" src="http://www.freesfx.co.uk/rx2/mp3s/6/18414_1464710715.mp3" type="audio/mpeg" autoplay="false" loop="true">
+</audio>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
